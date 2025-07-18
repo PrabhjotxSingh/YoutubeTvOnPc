@@ -1,0 +1,15 @@
+{
+  "name": "youtubetvonpc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "Prabhjot Gill",
+  "license": "MIT",
+  "description": "Electron app that allows you to use the TV version of Youtube on a desktop.",
+  "dependencies": {
+    "electron": "^37.2.3"
+  }
+}
