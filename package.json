@@ -10,10 +10,8 @@
   "author": "Prabhjot Gill",
   "license": "MIT",
   "description": "Electron app that allows you to use the TV version of Youtube on a desktop.",
-  "dependencies": {
-    "electron": "^37.2.3"
-  },
   "devDependencies": {
+    "electron": "^37.2.3",
     "electron-packager": "^17.1.2"
   }
 }
