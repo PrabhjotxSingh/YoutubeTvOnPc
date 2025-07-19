@@ -15,7 +15,7 @@ function createWindow() {
 
   // Spoof a TV user-agent
   win.webContents.setUserAgent(
-    "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chr0me/53.0.2785.34 Safari/537.36 LG Browser/8.00.00(LGE; 32LM627BPSB; 05.40.45; 1; DTV_W19R); webOS.TV-2019; LG NetCast.TV-2013 Compatible (LGE, 32LM627BPSB, wireless)"
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; Xbox; Xbox Series X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36 Edge/20.02"
   );
 
   win.loadURL("https://www.youtube.com/tv");
