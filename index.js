@@ -3,8 +3,8 @@ const { app, BrowserWindow } = require("electron");
 
 function createWindow() {
   const win = new BrowserWindow({
-    width: 1280,
-    height: 720,
+    width: 1920,
+    height: 1080,
     autoHideMenuBar: true,
     icon: path.join(__dirname, "icon.ico"),
     webPreferences: {
